@@ -83,12 +83,12 @@ form {
     border: 1.8px solid #00C4C4;
         }
 
-.contato-form input {
+input {
     width: 100%;
     padding: 8px 0px;
     margin: 8px 0px;
 }
-.contato-form input[type=text] {
+input[type=text] {
     height:70px;
 }
 
