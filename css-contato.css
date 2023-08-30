@@ -1,0 +1,161 @@
+css-contato.css > html
+
+body, h1 {
+    text-align: center;
+    color: #00C4C4;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5%;
+    margin-bottom: -1%;
+    word-spacing: 15%;
+    letter-spacing: 10%;
+}
+
+
+img.logo {
+    border-radius: 100%;
+    border: 1.8px solid #00C4C4;
+    text-align: center;
+    height:60px;
+    width:60px;
+    margin-top: 2px;
+    padding: 4px;
+    margin: auto;
+    display:block;
+}
+
+       
+nav, ul, li, a {
+    display: flex;
+    justify-content: center ;
+    list-style-type: none;
+    padding: 10px;
+    gap: 28px;
+    margin-top:-14.5px;
+    margin-bottom: -7px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    text-decoration-line:none;
+}
+
+a {
+    color : #0f0f0f;
+}
+
+nav, a:hover {
+    color: #00C4C4;
+}
+
+nav, a.linkactive {
+    color: #00C4C4;
+}
+
+hr  {
+    border-color:#00C4C4;
+    box-sizing:border-box;
+    width: 500px;  
+    line-height: 1.8px ;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+
+div, h2 {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00C4C4;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px; 
+        }
+
+form {
+    font-family: Arial, Helvetica, serif;
+    font-weight: inherit;
+    font-size: 13px;
+    color: #0f0f0f;
+    letter-spacing: 10%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 0%;
+    border: 1.8px solid #00C4C4;
+        }
+
+input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+input[type=text] {
+    height:70px;
+}
+
+button {
+    color:#ffffff;
+    background-color: #0f0f0f;
+    border-left:#ffffff 1.8px;
+    border-right: #ffffff 1.8px;
+    border-top: #ffffff 1.8px;
+    border-bottom: #ffffff 1.8px;
+    width: 100px;
+    right: 30px;
+    margin-top: 2px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button:hover {
+    color:#ffffff;
+    background-color: #00C4C4;
+    border-radius: 10px 10px 10px 10px;
+        }
+
+img.contato {
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    margin-top: -12px;
+    margin-bottom: 2px;
+    
+}
+
+footer, p {
+    justify-content: center;
+    font-family: Arial, Helvetica, serif;
+    font-weight: inherit bold;
+    font-size: 12px;
+    color: #0f0f0f;
+    letter-spacing: 30%;
+    text-decoration: none;
+    margin-top: -18px;
+    margin-bottom: 4px;
+    object-position: line;
+    list-style-position: none;
+}
+
+footer a:hover {
+    text-decoration:underline 1.5px ;
+}
+
+div form {
+    border-radius: 0%;
+    border: 1.5px solid #d6d6d6;
+    background-color: #d6d6d6;
+}
+
+input.err:hover {
+    background-color: #00C4C4;
+    color:#ffffff;
+        }
+
+footer {
+            position: flex;
+            width: 100%;
+            text-align: center;
+            color: #0f0f0f;
+            font-size: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 35px;
+            margin-bottom: 3%;
+        }
