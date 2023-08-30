@@ -83,12 +83,12 @@ form {
     border: 1.8px solid #00C4C4;
         }
 
-input {
+.contato-form input {
     width: 100%;
     padding: 8px 0px;
     margin: 8px 0px;
 }
-input[type=text] {
+.contato-form input[type=text] {
     height:70px;
 }
 
@@ -111,7 +111,7 @@ button:hover {
     border-radius: 10px 10px 10px 10px;
         }
 
-img.contato {
+img.redesocial {
     width: 28px;
     height: 28px;
     justify-content: center;
